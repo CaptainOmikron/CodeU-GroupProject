@@ -2,7 +2,7 @@
 Seperate rep for the group project
 
 The interesting file is the RearrangingCars.py. Don't worry if you don't know any python, it's really easy to read. 
-I found a solution that's in O(N), which is decent. I can't imagine how you would archieve better time complexity,
+I found a solution that's in O(N), which is decent. I can't imagine how you would achieve better time complexity,
 since you have to go through all cars at least once...
 
 The second file is RearrangingCarsWithExperimentalComplexityAnalysis.py (haha). Don't read it unless you're super interested.
