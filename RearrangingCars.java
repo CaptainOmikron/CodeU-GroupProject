@@ -28,13 +28,12 @@ public class RearrangingCars {
         }
         log.log(Level.FINE, "Arguments are ok");
         this.originState = ( originState.clone() );
-        this.finishState = ( finishState.clone() );
         numberOfCars = originState.length;
         makeNumbersMap();
         ArrayList<Move> moveHistory = new ArrayList<Move>();
         for (int i = 0; i < numberOfCars; i++){
             int currentCar = this.originState[i];
-            int needCar = this.finishState[i];
+            int needCar = finishState[i];
             if (currentCar != needCar){
                 int emptyPlace = numbersMap[0];
                 int needCarPlace = numbersMap[needCar];
